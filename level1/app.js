@@ -20,7 +20,7 @@
     },
 
     activated: function() {
-      this.ajax('getUserDetails', this.currentUser().email());
+      this.ajax('getUserDetails', this.ticket().requester().email());
     },
 
     showUserDetails: function(users) {
