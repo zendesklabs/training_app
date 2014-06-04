@@ -9,7 +9,7 @@
           url: 'http://appstraining.herokuapp.com/api/users.json?email=' + email,
           type: 'GET',
           dataType: 'json'
-        }
+        };
       }
     },
 
@@ -26,7 +26,7 @@
     showUserDetails: function(users) {
       var count = 0;
 
-      for (user in users) {
+      for (var user in users) {
         users[user].external_id = user;
         count++;
       }
