@@ -1,0 +1,9 @@
+{
+  "app": {
+    "package": "basic_crm_example_app",
+    "description": {
+      "value": "This app retrieves user info from an example CRM",
+      "title": "app description"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Basic CRM Example app",
+
+  "author": {
+    "name": "Sean Kinney",
+    "email": "skinney@zendesk.com"
+  },
+
+  "location": ["ticket_sidebar"],
+  "defaultLocale": "en",
+  "private": true,
+  "frameworkVersion": "1.0",
+  "version": "1.0"
+}
