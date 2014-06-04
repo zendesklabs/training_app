@@ -1,1 +1,1 @@
-<div class="failure">{{t "fetch_fail"}}</div>
+<div class="failure">Error looking up user</div>

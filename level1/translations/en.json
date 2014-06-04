@@ -5,56 +5,5 @@
       "value": "This app retrieves user info from an example CRM",
       "title": "app description"
     }
-  },
-
-  "loading": {
-    "value": "Basic CRM Example app is loading...",
-    "title": "loading placeholder"
-  },
-
-  "fetch": {
-    "done": {
-      "value": "Good",
-      "title": "fetch success"
-    },
-    "fail": {
-      "value": "Failed to fetch information from the server",
-      "title": "fetch failure"
-    }
-  },
-
-  "external_id": {
-    "value": "CRM ID",
-    "title": "ID of the user"
-  },
-
-  "email": {
-    "value": "Email",
-    "title": "Email of the user"
-  },
-
-  "name": {
-    "value": "Name",
-    "title": "Name of the user"
-  },
-
-  "plan": {
-    "value": "Plan",
-    "title": "Plan associated with the user"
-  },
-
-  "expiration_date": {
-    "value": "Expiration Date",
-    "title": "Date the user's plan expires"
-  },
-
-  "vip": {
-    "value": "VIP",
-    "title": "Whether the user is a VIP"
-  },
-
-  "count": {
-    "value": "user(s) found:",
-    "title": "Number of users found"
   }
 }

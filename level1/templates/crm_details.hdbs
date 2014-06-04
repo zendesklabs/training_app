@@ -1,11 +1,11 @@
-<p class="matches">{{count}} {{t "count"}}</p>
+<p class="matches">{{count}} user(s) found</p>
 {{#each users}}
 <div class="user">
   <ul>
-    <li><span class="title">{{t "name"}}</span> {{name}} {{#if vip}}<span class="vip">{{t "vip"}} &#9733;</span>{{/if}}</li>
-    <li><span class="title">{{t "email"}}</span> {{email}}</li>
-    <li><span class="title">{{t "expiration_date"}}</span> {{expiration_date}}</li>
-    <li><span class="title">{{t "plan"}}</span> <span class="plan {{plan}}">{{plan}}</span></li>
+    <li><span class="title">Name:</span> {{name}} {{#if vip}}<span class="vip">VIP &#9733;</span>{{/if}}</li>
+    <li><span class="title">Email: </span> {{email}}</li>
+    <li><span class="title">Expiration Date:</span> {{expiration_date}}</li>
+    <li><span class="title">Plan:</span> <span class="plan {{plan}}">{{plan}}</span></li>
   </ul>
 </div>
 {{/each}}
