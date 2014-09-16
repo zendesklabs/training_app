@@ -15,8 +15,7 @@
 
     events: {
       'app.activated'       : 'activated',
-      'getUserDetails.done' : 'showUserDetails',
-      'getUserDetails.fail' : 'fail'
+      'getUserDetails.done' : 'showUserDetails'
     },
 
     activated: function() {
@@ -24,19 +23,10 @@
     },
 
     showUserDetails: function(users) {
-      var count = 0;
+      var user = users[1];
 
-      for (var user in users) {
-        users[user].external_id = user;
-        count++;
-      }
-
-      this.switchTo('crm_details', {"users" : users, "count" : count});
+      this.switchTo('crm_details', {"user" : user});
     },
-
-    fail: function(data) {
-      this.switchTo('fetch_fail');
-    }
   };
 
 }());
