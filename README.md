@@ -6,5 +6,5 @@
 
 This app will be used for customer/partner training
 
-Screenshot(s):
+## Screenshot(s):
 * None
